@@ -99,7 +99,7 @@ class Autoloader
 
 		if (substr($class, 0, 5))
 		{
-			throw new Exception('Cannot load class using XFCP. Load the class using the correct loader first.');
+			throw new Exception('Cannot load class. Load the class using the correct loader first.');
 		}
 
 		$filename = $this->autoloaderClassToFile($class);
