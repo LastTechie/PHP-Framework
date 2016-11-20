@@ -4,7 +4,7 @@
  *   This is the base class for Models. Usually, models don't share too much
  *   with eachother. Most implementations will be adding methods onto this 
  *   ckass. This class just provides helper methods for common functions.
-*/
+ */
 abstract class Model
 {
         
