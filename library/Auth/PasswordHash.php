@@ -1,5 +1,6 @@
 <?php
-#
+
+
 # Portable PHP password hashing framework.
 #
 # Written by Solar Designer <solar at openwall.com> in 2004-2006 and placed in
@@ -22,6 +23,7 @@
 # Obviously, since this code is in the public domain, the above are not
 # requirements (there can be none), but merely suggestions.
 #
+
 
 class PasswordHash
 {
